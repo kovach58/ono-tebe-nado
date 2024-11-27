@@ -13,6 +13,7 @@
   justify-content: start;
   align-items: center;
 }
+
 .header__links-list {
   display: flex;
   justify-items: center;
@@ -50,8 +51,8 @@
 }
 
 .header__address {
-    justify-self: end;
-    padding-inline: 38px;
+  justify-self: end;
+  padding-inline: 38px;
 }
 
 .cover {
@@ -168,18 +169,6 @@
   min-height: 563px;
 }
 
-.card_type_film {
-  background-image: url(../images/card-lot-01.jpg);
-}
-
-.card_type_book {
-  background-image: url(../images/card-lot-02.jpg);
-}
-
-.card_type_picture {
-  background-image: url(../images/card-lot-03.jpg);
-}
-
 .card-link {
   display: block;
   height: 100%;
@@ -197,6 +186,18 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.card_type_film {
+  background-image: url(../images/card-lot-01.jpg);
+}
+
+.card_type_book {
+  background-image: url(../images/card-lot-02.jpg);
+}
+
+.card_type_picture {
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 .card__title {
@@ -279,33 +280,32 @@
 }
 
 .footer {
-    display: grid;
-    grid-template-columns: 1fr 149px 1fr;
-    padding: 180px 50px 88px;
-    font-weight: 400;
-    font-size: 18px;
+  display: grid;
+  grid-template-columns: 1fr 149px 1fr;
+  padding: 180px 50px 88px;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .footer__menu-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    line-height: 21.13px;
-    list-style-type: none;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 21.13px;
+  list-style-type: none;
 }
 
 .footer__menu-link_active {
-   text-decoration: none;
+  text-decoration: none;
 }
 
 .footer__social-list {
-    display: flex;
-    justify-content: flex-end;
-    column-gap: 48px;
-    list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 48px;
+  list-style-type: none;
 }
 
 .footer__social-icon {
-    width: 48px;
+  width: 48px;
 }
